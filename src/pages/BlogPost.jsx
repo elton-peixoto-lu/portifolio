@@ -155,7 +155,7 @@ function BlogPost() {
             {/* Back to Blog */}
             <Link
               to="/blog"
-              className="inline-flex items-center px-6 py-3 bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 rounded-2xl transition-all duration-200"
+              className="inline-flex items-center px-6 py-3 bg-gray-500 hover:bg-gray-600 dark:bg-white/10 dark:hover:bg-white/20 text-white dark:text-white border border-gray-600 dark:border-white/10 rounded-2xl transition-all duration-200"
             >
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />

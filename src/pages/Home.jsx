@@ -90,7 +90,7 @@ function Home() {
   // ---- UI helpers ----
   const Section = ({ id, title, children }) => (
     <section id={id} className="py-16 px-6 max-w-6xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900 dark:text-white">{title}</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white dark:text-white">{title}</h2>
       {children}
     </section>
   );
@@ -111,7 +111,7 @@ function Home() {
         <section id="home" className="px-6">
           <div className="max-w-6xl mx-auto py-24 md:py-32 grid md:grid-cols-2 gap-10 items-center">
             <div>
-              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-4">
+              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white dark:text-white mb-4">
                 {name}
               </h1>
               <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-6">{role}</p>
@@ -127,7 +127,7 @@ function Home() {
                 </a>
                 <a
                   href={links.linkedin}
-                  className="px-6 py-3 rounded-2xl bg-gray-300 hover:bg-gray-400 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 transition-all duration-200"
+                  className="px-6 py-3 rounded-2xl bg-gray-300 hover:bg-gray-400 dark:bg-white/10 dark:hover:bg-white/20 text-white dark:text-white border border-gray-600 dark:border-white/10 transition-all duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -150,7 +150,7 @@ function Home() {
               </div>
             </div>
             <div className="rounded-3xl border border-white/10 p-6 bg-white/5 backdrop-blur-sm">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Áreas de atuação</h3>
+              <h3 className="text-lg font-semibold text-white dark:text-white mb-4">Áreas de atuação</h3>
               <ul className="grid grid-cols-2 gap-3 text-sm">
                 {[
                   "Infra as Code",
@@ -176,7 +176,7 @@ function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
               <p className="leading-relaxed text-gray-300 mb-6 text-lg">
-                Sou engenheiro com foco em <strong className="text-gray-900 dark:text-white">DevOps, SRE e
+                Sou engenheiro com foco em <strong className="text-white dark:text-white">DevOps, SRE e
                 Platform Engineering</strong>. Trabalho criando baselines de
                 infraestrutura, plataformas internas e automações de cloud em larga escala
                 (AWS & GCP).
@@ -188,7 +188,7 @@ function Home() {
               </p>
             </div>
             <div className="rounded-2xl bg-white/5 border border-white/10 p-6">
-              <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Princípios</h3>
+              <h3 className="font-semibold text-white dark:text-white mb-4">Princípios</h3>
               <ul className="space-y-3 text-sm">
                 <li className="flex items-center">
                   <span className="text-emerald-400 mr-2">•</span>
@@ -216,7 +216,7 @@ function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {stack.map((g) => (
               <div key={g.group} className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-all duration-200">
-                <h3 className="font-semibold text-gray-900 dark:text-white mb-4">{g.group}</h3>
+                <h3 className="font-semibold text-white dark:text-white mb-4">{g.group}</h3>
                 <div className="flex flex-wrap gap-2">
                   {g.items.map((it) => (
                     <Badge key={it}>{it}</Badge>
@@ -232,7 +232,7 @@ function Home() {
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             {featuredProjects.map((p) => (
               <article key={p.title} className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-all duration-200">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">{p.title}</h3>
+                <h3 className="text-xl font-semibold text-white dark:text-white mb-3">{p.title}</h3>
                 <p className="text-gray-400 mb-4 leading-relaxed">{p.desc}</p>
                 <div className="flex flex-wrap gap-2">
                   {p.highlights.map((h) => (
@@ -245,7 +245,7 @@ function Home() {
           <div className="text-center">
             <Link
               to="/projects"
-              className="inline-flex items-center px-6 py-3 rounded-2xl bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 transition-all duration-200"
+              className="inline-flex items-center px-6 py-3 rounded-2xl bg-gray-500 hover:bg-gray-600 dark:bg-white/10 dark:hover:bg-white/20 text-white dark:text-white border border-gray-600 dark:border-white/10 transition-all duration-200"
             >
               Ver todos os projetos
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -266,7 +266,7 @@ function Home() {
                 rel="noopener noreferrer"
                 className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-all duration-200 group"
               >
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">{a.title}</h3>
+                <h3 className="text-lg font-semibold text-white dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">{a.title}</h3>
                 <p className="text-sm text-gray-400">web.dio.me</p>
               </a>
             ))}
@@ -274,7 +274,7 @@ function Home() {
           <div className="text-center">
             <Link
               to="/blog"
-              className="inline-flex items-center px-6 py-3 rounded-2xl bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 transition-all duration-200"
+              className="inline-flex items-center px-6 py-3 rounded-2xl bg-gray-500 hover:bg-gray-600 dark:bg-white/10 dark:hover:bg-white/20 text-white dark:text-white border border-gray-600 dark:border-white/10 transition-all duration-200"
             >
               Ver todos os artigos
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -287,7 +287,7 @@ function Home() {
         {/* CTA */}
         <section className="py-16 px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white dark:text-white mb-4">
               Vamos conversar?
             </h2>
             <p className="text-lg text-gray-400 mb-8">
@@ -302,7 +302,7 @@ function Home() {
               </Link>
               <Link
                 to="/blog"
-                className="px-8 py-4 rounded-2xl bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 font-medium transition-all duration-200"
+                className="px-8 py-4 rounded-2xl bg-gray-500 hover:bg-gray-600 dark:bg-white/10 dark:hover:bg-white/20 text-white dark:text-white border border-gray-600 dark:border-white/10 font-medium transition-all duration-200"
               >
                 Leia meus artigos
               </Link>

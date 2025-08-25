@@ -47,7 +47,7 @@ function Navigation({ darkMode, toggleDarkMode }) {
             {/* Dark Mode Toggle */}
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-lg bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-700 dark:text-gray-300 transition-colors"
+              className="p-2 rounded-lg bg-gray-500 hover:bg-gray-600 dark:bg-white/10 dark:hover:bg-white/20 text-white dark:text-gray-300 transition-colors"
               aria-label="Toggle dark mode"
             >
               {darkMode ? (
@@ -66,7 +66,7 @@ function Navigation({ darkMode, toggleDarkMode }) {
           <div className="md:hidden flex items-center space-x-4">
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-lg bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-700 dark:text-gray-300 transition-colors"
+              className="p-2 rounded-lg bg-gray-500 hover:bg-gray-600 dark:bg-white/10 dark:hover:bg-white/20 text-white dark:text-gray-300 transition-colors"
               aria-label="Toggle dark mode"
             >
               {darkMode ? (
@@ -82,7 +82,7 @@ function Navigation({ darkMode, toggleDarkMode }) {
             
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-700 dark:text-gray-300 transition-colors"
+              className="p-2 rounded-lg bg-gray-500 hover:bg-gray-600 dark:bg-white/10 dark:hover:bg-white/20 text-white dark:text-gray-300 transition-colors"
               aria-label="Toggle menu"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
