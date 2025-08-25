@@ -266,7 +266,7 @@ function Home() {
                 rel="noopener noreferrer"
                 className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-all duration-200 group"
               >
-                <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors mb-2">{a.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">{a.title}</h3>
                 <p className="text-sm text-gray-400">web.dio.me</p>
               </a>
             ))}

@@ -109,7 +109,7 @@ function Contact() {
                       {method.icon}
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-blue-400 transition-colors">
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                         {method.title}
                       </h3>
                       <p className="text-gray-400 text-sm mb-2">

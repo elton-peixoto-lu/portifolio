@@ -157,7 +157,7 @@ function Blog() {
                         to={`/blog/${post.slug}`}
                         className="block group"
                       >
-                        <h2 className="text-xl md:text-2xl font-bold text-white group-hover:text-blue-400 transition-colors mb-2">
+                        <h2 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
                           {post.title}
                         </h2>
                       </Link>

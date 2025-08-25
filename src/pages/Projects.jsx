@@ -282,7 +282,7 @@ function Projects() {
                 <div className="flex-1">
                   <header className="mb-4">
                     <div className="flex items-center gap-3 mb-2">
-                      <h2 className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">
+                      <h2 className="text-2xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                         {project.title}
                       </h2>
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
