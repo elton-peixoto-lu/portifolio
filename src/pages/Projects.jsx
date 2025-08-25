@@ -248,7 +248,7 @@ function Projects() {
 
         {/* Enterprise Projects Divider */}
         <div className="mb-12 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-4">
             Projetos Enterprise
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
@@ -396,7 +396,7 @@ function Projects() {
         {/* Call to Action */}
         <section className="mt-16 text-center">
           <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
-            <h2 className="text-2xl font-bold text-white mb-4">
+            <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
               Quer discutir algum projeto?
             </h2>
             <p className="text-gray-400 mb-6 max-w-2xl mx-auto">

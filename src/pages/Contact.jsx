@@ -154,7 +154,7 @@ function Contact() {
             <div className="p-6 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-2xl">
               <div className="flex items-center mb-3">
                 <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
-                <h3 className="text-lg font-semibold text-white">Status atual</h3>
+                <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Status atual</h3>
               </div>
               <p className="text-gray-300 text-sm mb-4">
                 Disponível para consultorias, projetos de Platform Engineering e discussões técnicas. 
@@ -229,7 +229,7 @@ function Contact() {
         {/* Call to Action */}
         <section className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-500/20 rounded-2xl p-8">
-            <h2 className="text-2xl font-bold text-white mb-4">
+            <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
               Pronto para começar uma conversa?
             </h2>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
