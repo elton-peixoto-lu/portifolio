@@ -91,7 +91,7 @@ function Blog() {
       <div className="max-w-6xl mx-auto px-6 py-12">
         {/* Header */}
         <header className="mb-12 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Blog
           </h1>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -210,7 +210,7 @@ function Blog() {
           </div>
         ) : (
           <div className="text-center py-12">
-            <h3 className="text-xl font-semibold text-white mb-2">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
               {selectedTag === 'all' ? 'Nenhum post encontrado' : `Nenhum post com a tag "${selectedTag}"`}
             </h3>
             <p className="text-gray-400 mb-6">

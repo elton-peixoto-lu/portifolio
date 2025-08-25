@@ -91,7 +91,7 @@ function BlogPost() {
           )}
 
           {/* Title */}
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
             {post.title}
           </h1>
 

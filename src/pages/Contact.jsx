@@ -81,7 +81,7 @@ function Contact() {
       <div className="max-w-6xl mx-auto px-6 py-12">
         {/* Header */}
         <header className="mb-12 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Vamos conversar
           </h1>
           <p className="text-lg text-gray-400 max-w-3xl mx-auto">
@@ -93,7 +93,7 @@ function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Methods */}
           <section>
-            <h2 className="text-2xl font-bold text-white mb-6">Como me encontrar</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Como me encontrar</h2>
             
             <div className="space-y-4">
               {contactMethods.map((method, index) => (
@@ -132,7 +132,7 @@ function Contact() {
 
           {/* Expertise & Availability */}
           <section>
-            <h2 className="text-2xl font-bold text-white mb-6">Áreas de expertise</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Áreas de expertise</h2>
             
             <div className="space-y-4 mb-8">
               {expertise.map((item, index) => (
@@ -140,7 +140,7 @@ function Contact() {
                   key={index}
                   className="p-4 bg-white/5 border border-white/10 rounded-xl"
                 >
-                  <h3 className="text-lg font-semibold text-white mb-2">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                     {item.area}
                   </h3>
                   <p className="text-gray-400 text-sm">
@@ -177,11 +177,11 @@ function Contact() {
 
         {/* FAQ Section */}
         <section className="mt-16">
-          <h2 className="text-2xl font-bold text-white mb-8 text-center">Perguntas frequentes</h2>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Perguntas frequentes</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-white/5 border border-white/10 rounded-2xl">
-              <h3 className="text-lg font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                 Que tipo de projetos você trabalha?
               </h3>
               <p className="text-gray-400 text-sm">
@@ -192,7 +192,7 @@ function Contact() {
             </div>
 
             <div className="p-6 bg-white/5 border border-white/10 rounded-2xl">
-              <h3 className="text-lg font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                 Oferece consultoria?
               </h3>
               <p className="text-gray-400 text-sm">
@@ -203,7 +203,7 @@ function Contact() {
             </div>
 
             <div className="p-6 bg-white/5 border border-white/10 rounded-2xl">
-              <h3 className="text-lg font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                 Trabalha remotamente?
               </h3>
               <p className="text-gray-400 text-sm">
@@ -214,7 +214,7 @@ function Contact() {
             </div>
 
             <div className="p-6 bg-white/5 border border-white/10 rounded-2xl">
-              <h3 className="text-lg font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                 Quanto tempo para responder?
               </h3>
               <p className="text-gray-400 text-sm">

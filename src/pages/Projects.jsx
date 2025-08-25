@@ -130,7 +130,7 @@ function Projects() {
       <div className="max-w-6xl mx-auto px-6 py-12">
         {/* Header */}
         <header className="mb-12 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Projetos
           </h1>
           <p className="text-lg text-gray-400 max-w-3xl mx-auto">
@@ -143,7 +143,7 @@ function Projects() {
         <section className="mb-16">
           <div className="bg-gradient-to-r from-blue-500/10 to-emerald-500/10 border border-blue-500/20 rounded-2xl p-8">
             <div className="text-center mb-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
                 Sites para Profissionais Emergentes
               </h2>
               <p className="text-gray-300 max-w-4xl mx-auto leading-relaxed">
@@ -161,7 +161,7 @@ function Projects() {
                 >
                   <div className="flex items-start justify-between mb-4">
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                         {project.title}
                       </h3>
                       <span className="px-2 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full text-xs font-medium">

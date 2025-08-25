@@ -150,7 +150,7 @@ function Home() {
               </div>
             </div>
             <div className="rounded-3xl border border-white/10 p-6 bg-white/5 backdrop-blur-sm">
-              <h3 className="text-lg font-semibold text-white mb-4">Áreas de atuação</h3>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Áreas de atuação</h3>
               <ul className="grid grid-cols-2 gap-3 text-sm">
                 {[
                   "Infra as Code",
@@ -188,7 +188,7 @@ function Home() {
               </p>
             </div>
             <div className="rounded-2xl bg-white/5 border border-white/10 p-6">
-              <h3 className="font-semibold text-white mb-4">Princípios</h3>
+              <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Princípios</h3>
               <ul className="space-y-3 text-sm">
                 <li className="flex items-center">
                   <span className="text-emerald-400 mr-2">•</span>
@@ -216,7 +216,7 @@ function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {stack.map((g) => (
               <div key={g.group} className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-all duration-200">
-                <h3 className="font-semibold text-white mb-4">{g.group}</h3>
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-4">{g.group}</h3>
                 <div className="flex flex-wrap gap-2">
                   {g.items.map((it) => (
                     <Badge key={it}>{it}</Badge>
@@ -232,7 +232,7 @@ function Home() {
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             {featuredProjects.map((p) => (
               <article key={p.title} className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-all duration-200">
-                <h3 className="text-xl font-semibold text-white mb-3">{p.title}</h3>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">{p.title}</h3>
                 <p className="text-gray-400 mb-4 leading-relaxed">{p.desc}</p>
                 <div className="flex flex-wrap gap-2">
                   {p.highlights.map((h) => (
@@ -287,7 +287,7 @@ function Home() {
         {/* CTA */}
         <section className="py-16 px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
               Vamos conversar?
             </h2>
             <p className="text-lg text-gray-400 mb-8">
