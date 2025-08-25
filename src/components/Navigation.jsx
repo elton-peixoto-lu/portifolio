@@ -20,11 +20,11 @@ function Navigation({ darkMode, toggleDarkMode }) {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-gray-900/80 border-b border-white/10">
+    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/90 border-b border-gray-200 dark:bg-gray-900/80 dark:border-white/10">
       <nav className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="font-bold text-white text-lg hover:text-blue-400 transition-colors">
+          <Link to="/" className="font-bold text-gray-900 dark:text-white text-lg hover:text-blue-500 transition-colors">
             Elton Peixoto
           </Link>
 
@@ -36,8 +36,8 @@ function Navigation({ darkMode, toggleDarkMode }) {
                 to={item.href}
                 className={`text-sm transition-colors ${
                   isActive(item.href)
-                    ? 'text-white font-medium'
-                    : 'text-gray-300 hover:text-white'
+                    ? 'text-gray-900 dark:text-white font-medium'
+                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
                 }`}
               >
                 {item.name}
@@ -47,7 +47,7 @@ function Navigation({ darkMode, toggleDarkMode }) {
             {/* Dark Mode Toggle */}
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
+              className="p-2 rounded-lg bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-700 dark:text-gray-300 transition-colors"
               aria-label="Toggle dark mode"
             >
               {darkMode ? (
@@ -66,7 +66,7 @@ function Navigation({ darkMode, toggleDarkMode }) {
           <div className="md:hidden flex items-center space-x-4">
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
+              className="p-2 rounded-lg bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-700 dark:text-gray-300 transition-colors"
               aria-label="Toggle dark mode"
             >
               {darkMode ? (
@@ -82,7 +82,7 @@ function Navigation({ darkMode, toggleDarkMode }) {
             
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
+              className="p-2 rounded-lg bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-700 dark:text-gray-300 transition-colors"
               aria-label="Toggle menu"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -98,7 +98,7 @@ function Navigation({ darkMode, toggleDarkMode }) {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-white/10">
+          <div className="md:hidden mt-4 pb-4 border-t border-gray-300 dark:border-white/10">
             <div className="flex flex-col space-y-2 pt-4">
               {navigation.map((item) => (
                 <Link
@@ -107,8 +107,8 @@ function Navigation({ darkMode, toggleDarkMode }) {
                   onClick={() => setIsOpen(false)}
                   className={`px-3 py-2 rounded-lg text-sm transition-colors ${
                     isActive(item.href)
-                      ? 'text-white bg-white/10 font-medium'
-                      : 'text-gray-300 hover:text-white hover:bg-white/5'
+                      ? 'text-gray-900 dark:text-white bg-gray-200 dark:bg-white/10 font-medium'
+                      : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-white/5'
                   }`}
                 >
                   {item.name}

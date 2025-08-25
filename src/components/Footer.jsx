@@ -1,16 +1,16 @@
 function Footer() {
   return (
     <footer className="py-12 px-6 max-w-6xl mx-auto">
-      <div className="border-t border-white/10 pt-8">
+      <div className="border-t border-gray-300 dark:border-white/10 pt-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div className="text-sm text-gray-500">
+          <div className="text-sm text-gray-600 dark:text-gray-500">
             © {new Date().getFullYear()} Elton Peixoto. Built with React + Tailwind + Vite.
           </div>
           
           <div className="flex space-x-6">
             <a
               href="https://github.com/elton-peixoto-lu"
-              className="text-gray-500 hover:text-white transition-colors"
+              className="text-gray-600 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -22,7 +22,7 @@ function Footer() {
             
             <a
               href="https://www.linkedin.com/in/elton-peixoto-914452296/"
-              className="text-gray-500 hover:text-white transition-colors"
+              className="text-gray-600 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -34,7 +34,7 @@ function Footer() {
             
             <a
               href="mailto:pluizelton@gmail.com"
-              className="text-gray-500 hover:text-white transition-colors"
+              className="text-gray-600 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
               aria-label="Email"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

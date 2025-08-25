@@ -90,13 +90,13 @@ function Home() {
   // ---- UI helpers ----
   const Section = ({ id, title, children }) => (
     <section id={id} className="py-16 px-6 max-w-6xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">{title}</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900 dark:text-white">{title}</h2>
       {children}
     </section>
   );
 
   const Badge = ({ children }) => (
-    <span className="inline-flex items-center px-3 py-1 rounded-full bg-white/5 border border-white/10 text-sm">
+    <span className="inline-flex items-center px-3 py-1 rounded-full bg-gray-200 dark:bg-white/5 border border-gray-300 dark:border-white/10 text-sm">
       {children}
     </span>
   );
@@ -106,16 +106,16 @@ function Home() {
     <>
       <SEO />
       
-      <div className="text-gray-300">
+      <div>
         {/* Hero */}
         <section id="home" className="px-6">
           <div className="max-w-6xl mx-auto py-24 md:py-32 grid md:grid-cols-2 gap-10 items-center">
             <div>
-              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-4">
+              <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-4">
                 {name}
               </h1>
-              <p className="text-lg md:text-xl text-gray-400 mb-6">{role}</p>
-              <p className="text-gray-300 max-w-prose mb-8 leading-relaxed">{tagline}</p>
+              <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-6">{role}</p>
+              <p className="text-gray-700 dark:text-gray-300 max-w-prose mb-8 leading-relaxed">{tagline}</p>
               <div className="flex flex-wrap gap-3">
                 <a
                   href={links.github}
@@ -127,7 +127,7 @@ function Home() {
                 </a>
                 <a
                   href={links.linkedin}
-                  className="px-6 py-3 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/10 transition-all duration-200"
+                  className="px-6 py-3 rounded-2xl bg-gray-300 hover:bg-gray-400 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 transition-all duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

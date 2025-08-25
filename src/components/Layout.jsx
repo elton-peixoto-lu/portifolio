@@ -26,7 +26,7 @@ function Layout({ children }) {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-900 to-gray-950 dark:from-gray-900 dark:via-gray-900 dark:to-gray-950">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 via-gray-100 to-gray-200 text-gray-900 dark:from-gray-900 dark:via-gray-900 dark:to-gray-950 dark:text-gray-300">
       <Navigation darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main className="pt-16">
         {children}
