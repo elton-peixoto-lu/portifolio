@@ -422,7 +422,7 @@ function Projects() {
               </a>
               <a
                 href="mailto:pluizelton@gmail.com"
-                className="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl transition-colors"
+                className="px-6 py-3 bg-emerald-700 hover:bg-emerald-800 text-white rounded-2xl transition-colors"
               >
                 Email
               </a>

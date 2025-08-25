@@ -143,7 +143,7 @@ function Home() {
                 </a>
                 <Link
                   to="/contact"
-                  className="px-6 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white transition-all duration-200"
+                  className="px-6 py-3 rounded-2xl bg-emerald-700 hover:bg-emerald-800 text-white transition-all duration-200"
                 >
                   Vamos conversar
                 </Link>
@@ -175,13 +175,13 @@ function Home() {
         <Section id="about" title="Sobre mim">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
-              <p className="leading-relaxed text-gray-300 mb-6 text-lg">
+              <p className="leading-relaxed text-gray-700 dark:text-gray-300 mb-6 text-lg">
                 Sou engenheiro com foco em <strong className="text-gray-800 dark:text-white">DevOps, SRE e
                 Platform Engineering</strong>. Trabalho criando baselines de
                 infraestrutura, plataformas internas e automações de cloud em larga escala
                 (AWS & GCP).
               </p>
-              <p className="leading-relaxed text-gray-300 text-lg">
+              <p className="leading-relaxed text-gray-700 dark:text-gray-300 text-lg">
                 Curto medir e melhorar a confiabilidade (<em>P95/P99</em>),
                 padronizar via IaC, e pavimentar caminhos para que os times entreguem
                 com qualidade e segurança.
@@ -296,7 +296,7 @@ function Home() {
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 to="/contact"
-                className="px-8 py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="px-8 py-4 rounded-2xl bg-emerald-700 hover:bg-emerald-800 text-white font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
                 Entre em contato
               </Link>
