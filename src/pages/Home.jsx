@@ -176,7 +176,7 @@ function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
               <p className="leading-relaxed text-gray-300 mb-6 text-lg">
-                Sou engenheiro com foco em <strong className="text-white">DevOps, SRE e
+                Sou engenheiro com foco em <strong className="text-gray-900 dark:text-white">DevOps, SRE e
                 Platform Engineering</strong>. Trabalho criando baselines de
                 infraestrutura, plataformas internas e automações de cloud em larga escala
                 (AWS & GCP).
@@ -245,7 +245,7 @@ function Home() {
           <div className="text-center">
             <Link
               to="/projects"
-              className="inline-flex items-center px-6 py-3 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/10 transition-all duration-200"
+              className="inline-flex items-center px-6 py-3 rounded-2xl bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 transition-all duration-200"
             >
               Ver todos os projetos
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -274,7 +274,7 @@ function Home() {
           <div className="text-center">
             <Link
               to="/blog"
-              className="inline-flex items-center px-6 py-3 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/10 transition-all duration-200"
+              className="inline-flex items-center px-6 py-3 rounded-2xl bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 transition-all duration-200"
             >
               Ver todos os artigos
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -302,7 +302,7 @@ function Home() {
               </Link>
               <Link
                 to="/blog"
-                className="px-8 py-4 rounded-2xl bg-white/10 hover:bg-white/20 text-white border border-white/10 font-medium transition-all duration-200"
+                className="px-8 py-4 rounded-2xl bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-900 dark:text-white border border-gray-400 dark:border-white/10 font-medium transition-all duration-200"
               >
                 Leia meus artigos
               </Link>
