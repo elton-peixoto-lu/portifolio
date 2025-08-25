@@ -156,7 +156,7 @@ function Contact() {
                 <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
                 <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Status atual</h3>
               </div>
-              <p className="text-gray-300 text-sm mb-4">
+              <p className="text-gray-700 dark:text-gray-300 text-sm mb-4">
                 Disponível para consultorias, projetos de Platform Engineering e discussões técnicas. 
                 Respondo normalmente em 24-48 horas.
               </p>
